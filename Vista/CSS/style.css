@@ -4,13 +4,11 @@
     padding: 0;
 }
 
-/* Estilos para el modo claro */
 body.modo-claro {
     background-color: #fff;
     color: #000;
 }
 
-/* Estilos para el modo oscuro */
 body.modo-oscuro {
     background-color: #161815;
     color: #fff;

@@ -22,7 +22,6 @@ body{
   padding-bottom: 20px;  
   background-color: #ccc; 
   padding-left: 30px; 
-  border-radius: 50px;
 }
 
 
@@ -135,7 +134,7 @@ p{
   border: 1px solid #97d848;
 }
 
-container .card:hover .content {
+.container .card:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;

@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Small Business v5.0.6 (https://startbootstrap.com/template/small-business)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -444,14 +433,6 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -3420,9 +3401,6 @@ textarea.form-control-lg {
 .dropend .dropdown-toggle:empty::after {
   margin-left: 0;
 }
-.dropend .dropdown-toggle::after {
-  vertical-align: 0;
-}
 
 .dropstart .dropdown-menu[data-bs-popper] {
   top: 0;
@@ -3437,9 +3415,7 @@ textarea.form-control-lg {
   vertical-align: 0.255em;
   content: "";
 }
-.dropstart .dropdown-toggle::after {
-  display: none;
-}
+
 .dropstart .dropdown-toggle::before {
   display: inline-block;
   margin-right: 0.255em;
@@ -3451,9 +3427,6 @@ textarea.form-control-lg {
 }
 .dropstart .dropdown-toggle:empty::after {
   margin-left: 0;
-}
-.dropstart .dropdown-toggle::before {
-  vertical-align: 0;
 }
 
 .dropdown-divider {
