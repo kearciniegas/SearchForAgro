@@ -34,10 +34,10 @@
       <div class="collapse navbar-collapse" id="navbarS">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="index.php" class="nav-link">Inicio</a>
+            <a href="../index.html" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="historial.php" class="nav-link">Progreso</a>
+            <a href="historial.html" class="nav-link">Progreso</a>
           </li>
           <li class="nav-item">
             <a href="cultivos.php" class="nav-link">Cultivos</a>

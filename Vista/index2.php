@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse" id="navbarS">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="index.php" class="nav-link">Inicio</a>
+            <a href="../index.html" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
             <a href="cultivos.php" class="nav-link">Progreso</a>
@@ -216,9 +216,7 @@
                 Con nosotros podrás agregar tus cultivos y ver un aproximado de cuando estarán listos para cosechar (el tiempo puede variar), recuerda que para acceder a esta sección tendrás que haberte registrado o iniciado sección con tu cuenta para guardar tus avances.
               </p>
               <button class="btn bg-primary text-white">
-                <a href="historial.php" class="text-white text-decoration-none">Mi Progreso</a>
-
-
+                <a href="historial.index" class="text-white text-decoration-none">Mi Progreso</a>
               </button>
             </div>
           </div>
