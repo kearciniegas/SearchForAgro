@@ -47,13 +47,13 @@
             <a href="historial.html" class="nav-link">Progreso</a>
           </li>
           <li class="nav-item">
-            <a href="cultivos.php" class="nav-link">Cultivos</a>
+            <a href="cultivos.html" class="nav-link">Cultivos</a>
           </li>          
           <li class="nav-item">
-            <a href="nosotros.php" class="nav-link">Nosotros</a>
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a href="iniciarSe.php" class="nav-link">iniciar sesión</a>
+            <a href="iniciarSe.html" class="nav-link">iniciar sesión</a>
           </li>
 
         </ul>
@@ -112,7 +112,7 @@ $conexion->close();
       <input type="password" class="input" placeholder="Contraseña"  name="cedula" required>
 
       <p class="mt-5 sign-up-label">
-        ¿Ya tienes una cuenta? <a href="iniciarSe.php">Iniciar Sesión</a>
+        ¿Ya tienes una cuenta? <a href="iniciarSe.html">Iniciar Sesión</a>
       </p>
 
       <input class="mt-3 text-decoration-none ini text-center form-btn" type="submit" value="Registrarse">

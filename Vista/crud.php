@@ -110,7 +110,7 @@ if (!isset($_SESSION['usuario'])) {
             <a href="../index.html" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="cultivos.php" class="nav-link">Cultivos</a>
+            <a href="cultivos.html" class="nav-link">Cultivos</a>
           </li>          
         </ul>
       </div>

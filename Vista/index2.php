@@ -1,9 +1,5 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,78 +13,61 @@
       filter: blur(0);
       margin-top: 0;
     }
-
     .text-white {
       font-weight: bold;
     }
-
     p {
       text-align: justify;
-
     }
-
     .carousel-caption {
       backdrop-filter: blur(5px);
     }
   </style>
 </head>
-
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-
-
-
-
       <a href="#" class="navbar-brand"><span class="text-primary">Search</span> For Agro</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarS">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a href="../index.html" class="nav-link">Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="cultivos.php" class="nav-link">Progreso</a>
+            <a href="historal.html" class="nav-link">Progreso</a>
           </li>
           <li class="nav-item">
-            <a href="cultivos.php" class="nav-link">Cultivos</a>
+            <a href="cultivos.html" class="nav-link">Cultivos</a>
           </li>          
           <li class="nav-item">
-            <a href="nosotros.php" class="nav-link">Nosotros</a>
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
           </li>
           <li class="nav-item">
             <a href="crearCuen.php" class="nav-link">Cerrar sesión</a>
           </li>
-
         </ul>
       </div>
     </div>
   </nav>
-
-
   <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators mb-5">
       <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
     </div>
-
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="CSS/IMG/cafe-grano.jpg" class="d-block w-100" alt="" />
-
         <div class="carousel-caption mb-5">
           <h1 class="text-white">Planificación de cultivos y rotación</h1>
           <p>
             Antes de sembrar, dedica tiempo a planificar qué cultivos serán más beneficiosos para tu terreno y tu región. La rotación de cultivos es esencial para mantener la fertilidad del suelo y prevenir la acumulación de plagas y enfermedades específicas. Investiga los ciclos de crecimiento de diferentes plantas y diseña un plan de rotación que te permita aprovechar al máximo los nutrientes del suelo mientras minimizas los riesgos de problemas de salud de las plantas.
           </p>
-          <a href="cultivos.php" class="btn btn-primary mt-3">Más Información</a>
+          <a href="cultivos.html" class="btn btn-primary mt-3">Más Información</a>
         </div>
-
       </div>
       <div class="carousel-item">
         <img src="CSS/IMG/zanahoria-carrusel.jpg" class="d-block w-100" alt="" />
@@ -97,10 +76,9 @@
           <p>
             En lugar de depender únicamente de pesticidas químicos, considera adoptar un enfoque más holístico para controlar las plagas y enfermedades en tu cultivo. Esto implica una combinación de métodos, como la introducción de enemigos naturales de las plagas, el uso de trampas, la aplicación de técnicas de cultivo que fortalezcan la resistencia de las plantas y la práctica de una buena higiene agrícola. Este enfoque no solo es más sostenible a largo plazo, sino que también puede ser más económico y respetuoso con el medio ambiente.
           </p>
-          <a href="cultivos.php" class="btn btn-primary mt-3">Más Información</a>
+          <a href="cultivos.html" class="btn btn-primary mt-3">Más Información</a>
         </div>
       </div>
-
       <div class="carousel-item">
         <img src="CSS/IMG/arroz-carrusel.jpg" class="d-block w-100" alt="" />
         <div class="carousel-caption mb-5">
@@ -108,28 +86,22 @@
           <p>
             El agua y el suelo son recursos fundamentales en la agricultura, por lo que es crucial utilizarlos de manera eficiente y sostenible. Implementa prácticas de conservación del suelo, como la siembra directa, el uso de cubiertas vegetales y la construcción de terrazas para reducir la erosión y mejorar la estructura del suelo. Además, considera sistemas de riego eficientes, como el riego por goteo, que minimizan el desperdicio de agua y garantizan que tus cultivos reciban la cantidad adecuada de agua en el momento adecuado.
           </p>
-          <a href="cultivos.php" class="btn btn-primary mt-3">Más Información</a>
+          <a href="cultivos.html" class="btn btn-primary mt-3">Más Información</a>
         </div>
       </div>
     </div>
   </div>
-
-
-
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
     <span class="visually-hidden">hola</span>
   </button>
-
   <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"> </span>
     <span class="visually-hidden">hola</span>
   </button>
   </div>
-
   <div class="fondow bg-light">
     <section class="about section-padding">
-
       <div class="container conteiner-flex">
         <div class="row">
           <div class="col-lg-4 col-md-12 col-12">
@@ -137,32 +109,19 @@
               <img src="CSS/IMG/cultivo.jpg" class="img-fluid" alt="" />
             </div>
           </div>
-
           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md5">
             <div class="about-text">
               <h2>Calidad de los productos</h2>
               <p>
 
                 La calidad de los productos agrícolas es esencial para la satisfacción del consumidor y su salud. El cultivo adecuado influye en aspectos como el sabor, la textura, el valor nutricional y la seguridad alimentaria de los alimentos. Por ejemplo, la cosecha en el momento óptimo de madurez y el manejo adecuado durante la postcosecha pueden realzar el sabor y la frescura de los productos, mientras que el uso responsable de fertilizantes y prácticas orgánicas puede aumentar su valor nutricional </p>
-              <a href="cultivos.php" class="btn btn-primary">Mas informacion</a>
+              <a href="cultivos.html" class="btn btn-primary">Mas informacion</a>
             </div>
           </div>
         </div>
       </div>
     </section>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
   <section class="services section-padding">
     <div class="container">
       <div class="row">
@@ -181,7 +140,6 @@
               <h3 class="card-title">Registrate</h3>
               <p class="lead">
                 Puedes usar algunas funciones de nuestra pagina web pero si quieres utilizar las demás funciones solo tendrás que regístrate llenando un simple formulario dando click en el botón de aquí abajo, o si ya tienes una cuenta simplemente inicia session.
-
               </p>
               <button class="btn bg-primary text-white">
                 <a href="crearCuen.php" class="text-white text-decoration-none">Regístrate</a>
@@ -200,9 +158,7 @@
                 conocimientos y consejos necesarios para optimizar el rendimiento de sus cultivos, enfrentar desafíos climáticos y promover prácticas sostenibles.
               </p>
               <button class="btn bg-primary text-white">
-                <a href="nosotros.php" class="text-white text-decoration-none">Sobre Nosotros</a>
-
-
+                <a href="nosotros.html" class="text-white text-decoration-none">Sobre Nosotros</a>
               </button>
             </div>
           </div>
@@ -224,7 +180,6 @@
       </div>
     </div>
   </section>
-
   <section class="portafolio section-padding">
     <div class="container">
       <div class="row">
@@ -250,9 +205,7 @@
                 Los tomates prefieren suelos bien drenados y fértiles con un pH entre 6.0 y 6.8. Necesitan pleno sol y temperaturas cálidas para crecer adecuadamente.
               </p>
               <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
-
-
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
               </button>
             </div>
           </div>
@@ -267,9 +220,7 @@
               <p class="lead">
                 La cosecha de las papas generalmente ocurre de 90 a 120 días después de la siembra, dependiendo de la variedad y las condiciones de crecimiento. </p>
                 <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
-
-
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
               </button>
             </div>
           </div>
@@ -284,9 +235,7 @@
               <p class="lead">
                 El arroz se cultiva en campos inundados o en suelos saturados de agua. Se siembra en primavera en áreas más frías y en verano en áreas más cálidas. </p>
                 <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
-
-
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
               </button>
             </div>
           </div>
@@ -294,7 +243,6 @@
       </div>
     </div>
   </section>
-
   <section class="portafolio section-padding mb-5">
     <div class="container">
       <div class="row">
@@ -302,7 +250,6 @@
           <div class="mt-5 section-header bg-dark text-white text-center p-5 rounded mb-5">
             <h2>Plagas</h2>
             <p>
-
               La presencia de plagas en los cultivos representa uno de los desafíos más significativos para los agricultores en todo el mundo. Estas plagas, que pueden incluir insectos, enfermedades y malezas, tienen el potencial de causar daños severos a los cultivos, reduciendo rendimientos y calidad, e incluso provocando pérdidas económicas significativas
             </p>
           </div>
@@ -318,12 +265,9 @@
               <h3>Insectos Herbívoros</h3>
               <p class="lead">
                 Estos pequeños insectos chupadores de savia se alimentan de una amplia variedad de plantas cultivadas, incluyendo tomates, papas, cereales y frutas. Pueden debilitar las plantas al extraer nutrientes y transmitir enfermedades virales.
-
               </p>
               <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
-
-
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
               </button>
             </div>
           </div>
@@ -338,9 +282,7 @@
               <p class="lead">
                 Los hongos patógenos pueden infectar los cultivos y causar enfermedades como mildiú polvoriento, oídio, roya, tizón tardío y manchas foliares. Estas enfermedades pueden provocar marchitez, pudrición, manchas en las hojas y frutos </p>
                 <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
-
-
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
               </button>
             </div>
           </div>
@@ -356,7 +298,7 @@
                 Las plantas no deseadas que compiten por nutrientes, agua y luz solar con los cultivos se conocen como malezas. Pueden reducir los rendimientos de los cultivos y dificultar las labores de manejo y cosecha.
               </p>
               <button class="btn bg-primary text-white">
-                <a href="cultivos.php" class="text-white text-decoration-none">Mas informacion</a>
+                <a href="cultivos.html" class="text-white text-decoration-none">Mas informacion</a>
 
 
               </button>
@@ -396,12 +338,6 @@
       );
     }
   </script>
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-
 </body>
-
 </html>
